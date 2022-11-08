@@ -126,3 +126,20 @@ class SingleLinkedList:
             print(tNode.data, "->", end=" ")
         else:
             print("None")
+     
+    
+    
+    
+L = Node("head")
+L1 = SingleLinkedList()
+L1.TraverseElement()
+L1.CreateSingleLinkedList()
+L1.TraverseElement()
+L1.InsertElementInTail()
+L1.TraverseElement()
+L1.InsertElementInhead()
+L1.TraverseElement()
+L1.FindElement()
+L1.TraverseElement()
+L1.DeleteElement()
+L1.TraverseElement()
